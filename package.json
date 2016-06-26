@@ -31,7 +31,7 @@
     "meow": "^3.3.0"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
+    "mocha": "^2.5.2",
     "sinon": "^1.15.4"
   }
 }
