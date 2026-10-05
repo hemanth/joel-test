@@ -1,5 +1,5 @@
 'use strict';
-var inquirer = require('inquirer');
+var inquirer = ((m) => (m && m.default) ? m.default : m)(require('inquirer'));
 
 module.exports = function (cb) {
 

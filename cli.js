@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var chalk = require('chalk');
+var meow = ((m) => (m && m.default) ? m.default : m)(require('meow'));
+var chalk = ((m) => (m && m.default) ? m.default : m)(require('chalk'));
 var shout = chalk.bold.red;
 var say = chalk.bold.blue;
 var joelTest = require('./');
